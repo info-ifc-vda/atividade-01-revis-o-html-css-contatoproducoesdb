@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Daniel Bonetto</h1>
+        <p class="subtitulo">A Música que Toca o Coração</p>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#repertorio">Repertório</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre" data-aos="fade-up">
+      <div class="container">
+        <h2>Quem é Daniel Bonetto?</h2>
+        <p>
+          Daniel Bonetto é um cantor versátil de Videira - SC, conhecido por seu
+          vasto repertório que vai do sertanejo ao pop, passando por MPB. Sua
+          carreira começou em bares e eventos pequenos e, com o tempo, se
+          consolidou como uma das grandes apostas da música ao vivo.
+        </p>
+      </div>
+    </section>
+
+    <!-- REPERTÓRIO -->
+    <section id="repertorio" class="repertorio" data-aos="fade-left">
+      <div class="container">
+        <h2>Repertório Musical</h2>
+        <ul>
+          <li>Sertanejo Atual</li>
+          <li>Sertanejo Raiz</li>
+          <li>Pop Nacional e Internacional</li>
+          <li>MPB</li>
+          <li>Músicas Personalizadas para Eventos</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CARROSSEL DE VÍDEOS -->
+    <section id="videos" class="videos" data-aos="fade-up">
+      <div class="container">
+        <h2>Assista ao Vivo</h2>
+        <div class="carrossel">
+          <div class="video">
+            <img src="https://via.placeholder.com/800x450" alt="Vídeo 1" />
+            <span class="play-button">▶️</span>
+          </div>
+          <div class="video">
+            <img src="https://via.placeholder.com/800x450" alt="Vídeo 2" />
+            <span class="play-button">▶️</span>
+          </div>
+          <div class="video">
+            <img src="https://via.placeholder.com/800x450" alt="Vídeo 3" />
+            <span class="play-button">▶️</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO DE CONTATO -->
+    <section id="contato" class="contato" data-aos="fade-up">
+      <div class="container">
+        <h2>Fechar Contrato</h2>
+        <p>Entre em contato para agendar o show de Daniel Bonetto:</p>
+        <form action="#" method="POST">
+          <input type="text" name="nome" placeholder="Seu Nome" required />
+          <input type="email" name="email" placeholder="Seu Email" required />
+          <textarea
+            name="mensagem"
+            placeholder="Mensagem"
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+        <div class="btn-group">
+          <a
+            href="https://wa.me/0000000000"
+            target="_blank"
+            class="btn btn-whatsapp"
+          >
+            <i class="fab fa-whatsapp"></i> Entrar no WhatsApp
+          </a>
+          <a href="mailto:contato@danielbonetto.com" class="btn btn-email">
+            <i class="far fa-envelope"></i> Enviar Email
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <p>© 2026 Daniel Bonetto - Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <script>
+      AOS.init(); // Inicializando as animações
+    </script>
+  </body>
+</html>
